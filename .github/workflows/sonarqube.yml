@@ -40,4 +40,4 @@ jobs:
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
           SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
-        run: -Dsonar.projectName='javatest2' -Dsonar.qualitygate.wait=true
+        run: -Dsonar.qualitygate.wait=true
